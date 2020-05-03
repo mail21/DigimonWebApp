@@ -1,0 +1,64 @@
+*{
+    font-family: 'Roboto Mono',monospace;
+}
+
+  body{
+      background-image: url("./../assets/digimonPattern.jpg");
+  }
+
+  h3{
+      display: inline;
+  }
+
+  .none{
+      display: none;
+  }
+
+  nav, .background-blue{
+    background: rgb(125, 166, 233);
+}
+
+.logo{
+  display: inline-block;
+  width: 39px;
+  height: 55px;
+  background-image: url("./../assets/digivice.png");
+  background-size: contain;
+}
+
+  /* ================ Container ==================== */
+  main{
+    border: 1px solid;
+    background: white;
+  }
+
+  container-level{
+    width: 100%;
+  }
+
+  digi-item{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  digi-item > digi-card{
+    margin-bottom: 1em;
+    width: 12rem
+  }
+
+  .button-pick{
+    padding: 1em 0.5em;
+    margin: auto;
+  }
+
+  /* ================ Container ==================== */
+
+  @media (min-width: 455px) { 
+    /* jika masuk mode desktop */
+    .button-pick{
+      padding: 1em 1.5em;
+      margin: auto;
+    }   
+  }
+
+  
